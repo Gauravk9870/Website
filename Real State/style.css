@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Exo+2:wght@800&family=Roboto:wght@400;900&family=Scheherazade+New&family=Work+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Manrope', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*------------------------- Header ---------------------- */
+.first{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid blue; */
+    z-index:-1;
+   
+
+    background: rgb(189,204,255);
+    background: -moz-linear-gradient(270deg, rgba(189,204,255,1) 32%, rgba(255,255,255,1) 32%);
+    background: -webkit-linear-gradient(270deg, rgba(189,204,255,1) 32%, rgba(255,255,255,1) 32%);
+    background: linear-gradient(270deg, rgba(189,204,255,1) 32%, rgba(255,255,255,1) 32%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bdccff",endColorstr="#ffffff",GradientType=1);
+
+
+    
+}
+
+.header{
+    padding: 4rem;
+    /* border: 1px solid black; */
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.navBar_logo{
+    font-size: 2rem;
+    color:rgb(48, 46, 46);
+    font-weight: bold;
+   
+}
+
+.header .navBar .navMenu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    /* border: 1px solid black; */
+}
+
+.nav_items{
+    padding:2rem ;
+    color: black;
+    /* border: 1px solid black; */
+    font-size: 1.5rem;
+    padding-right: 3rem;
+}
+
+/*------------------------- Brand ---------------------- */
+.Brand{
+    padding: 4rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+}
+
+.main_image{
+    /* border: 2px solid gold; */
+    width: 55%;
+    height: auto;
+    transition: .3s;
+   
+    border: none;
+
+   
+}
+
+.main_image:hover{
+    transform: scale(1.05);
+    
+}
+
+.main_image #img1{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    z-index: 0;
+   
+    /* border: 2px solid rgb(3, 3, 3); */
+    padding: 1rem;
+    
+
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    /* border: 2px solid rgb(255, 0, 157); */
+    height: 21vh;
+    margin-top: 12rem;
+    margin-right: -1.8rem;
+}
+
+.social .social-media{
+    padding-bottom: 2rem;
+    /* background: red; */
+    /* border: 1px solid red; */
+    color: rgb(58, 58, 58);
+}
+
+.flexBox1{
+    /* border: 2px solid rgb(180, 205, 90); */
+    /* height: 58vh; */
+    width: 45%;
+
+}
+
+.Brand .flexBox1 .heading{
+    /* border: 2px dotted rgb(0, 132, 255); */
+    margin-top: 2rem;
+}
+
+.Brand .flexBox1 .heading h5{
+    color: orange;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.Brand .flexBox1 .heading h1{
+    color: black;
+    font-size: 5.5rem;
+}
+
+.Brand .flexBox1 .heading p{
+    color: rgb(58, 58, 58);
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    /* padding-right: 2rem; */
+    width: 34vw;
+}
+
+.Brand .flexBox1 .search{
+    padding-top: 4rem;
+    /* margin-right: -15rem; */
+    position: absolute;
+    z-index: 1;
+    /* border: 2px dotted brown; */
+    /* width: 50%; */
+}
+
+.Brand .flexBox1 .search #searchBox{
+    /* border:1px solid rgb(138, 138, 138); */
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.Brand .flexBox1 .search #btn1{
+    background: rgb(255, 60, 0);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1.4rem;
+    border:none;
+    margin-top: -1.5rem;
+    transition: .3s;
+   
+}
+
+.Brand .flexBox1 .search #btn1:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*------------------------- Sponsers ---------------------- */
+.partners{
+    /* border: 2px dotted blue; */
+    margin-top: -1rem;
+    padding-left: 4rem;
+    width: 65%;
+    color: rgb(138, 138, 138);
+    align-items: center;
+}
+
+.partners h3{
+    color: black;
+    font-size: 1.2rem;
+    font-weight:normal;
+}
+
+.partners .partner_list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    
+}
+
+.partners .partner_list #buzz{
+    font-family: 'Roboto', sans-serif;
+    /* font: weight 900px; */
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.partners .partner_list #chase{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    /* border: 1px solid red; */
+}
+
+.partners .partner_list #mircosoft{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 4rem;
+    font-size: 2rem;
+}
+
+.partners .partner_list #gucc{
+    font-family: 'Scheherazade New', serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.partners .partner_list #air{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.partners .partner_list #uber{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+}
+
+
+/*----------------------- Media Quries-------------------- */
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+  
+    .partners{
+        width: 65%;
+        margin-top: 10rem;
+    }
+
+    .first{
+        height: auto;
+    }
+  
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+
+  
+    .partners{
+        width: 65%;
+        margin-top: 10rem;
+    }
+    .first{
+        height: auto;
+    }
+}
+
+
+@media(max-width:538px){
+    html{
+        font-size: 35%;
+    }
+
+
+    .partners{
+        width: 75%;
+        margin-top: -0rem;
+    }
+  
+    .first{
+        height: auto;
+    }
+}
+@media(max-width:513px){
+    html{
+        font-size: 25%;
+    }
+    
+   .partners{
+    width: 80;
+    margin-top: -10rem;
+    }
+
+    .first{
+        height: auto;
+    }
+}
+
+@media(max-width:451px){
+    html{
+        font-size: 23%;
+    }
+   
+   .partners{
+    width: 85%;
+    margin-top: -10rem;
+    }
+
+    .first{
+        height: auto;
+    }
+}
+
+@media(max-width:345px){
+    html{
+        font-size: 20%;
+    }
+    
+
+   .partners{
+       width: 90%;
+       margin-top: -20rem;
+   }
+
+   .first{
+    height: auto;
+}
+}
+
+
+

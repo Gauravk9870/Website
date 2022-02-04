@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- material-icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube</title>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("toggle");
+            if (x.style.display === "none") {
+            x.style.display = "block";
+            } else {
+            x.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Header  -->
+    <header class="header">
+        <div class="logo left">
+            <i id="menu" class="material-icons" onclick="myFunction()">menu</i>
+            <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+        </div>
+
+        <div class="search center">
+            <form action="">
+                <input type="text" placeholder="Search" />
+                <button><i class="material-icons">search</i></button>
+                
+            </form>
+            <i class="material-icons mic">mic</i>
+        </div>
+
+        <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
+    </header>
+
+    <!-- Main  -->
+    <main>
+        <!-- side bar  -->
+        <div class="side-bar" id="toggle">
+            <div class="nav">
+                <a class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">explore</i>
+                    <span>Explore</span>
+                    
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+                <hr>
+                <a class="nav-link ">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </a>
+
+                <a class="nav-link ">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">smart_display</i>
+                    <span>Your Videos</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
+               
+                
+                <hr>
+                <span class="side-bar-headings">MORE FROM YOUTUBE</span>
+
+                <a class="nav-link ">
+                    <i class="material-icons">shop</i>
+                    <span>YouTube Premium</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">movie</i>
+                    <span>Movies</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">sports_esports</i>
+                    <span>Gaming</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">live_tv</i>
+                    <span>Live</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">checkroom</i>
+                    <span>Fashion & Beauty</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">lightbulb</i>
+                    <span>Learning</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">emoji_events</i>
+                    <span>Sports</span>
+                </a>
+
+                <hr>
+                <a class="nav-link ">
+                    <i class="material-icons">settings</i>
+                    <span>Settings</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">flag</i>
+                    <span>Report History</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">help</i>
+                    <span>Help</span>
+                </a>
+                <a class="nav-link ">
+                    <i class="material-icons">feedback</i>
+                    <span>Send feedback</span>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Videos  -->
+        <div class="content">
+            <div class="videos">
+                <!-- a video starts -->
+                <div class="video">
+
+                    <div class="thumbnail">
+                        <img src="thumb1.jpg" alt="" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                        <span>1B Views • 1 Years Ago</span>
+                    </div>
+
+                </div>
+                <!-- a video ends -->
+
+                                <!-- a video starts -->
+                                <div class="video">
+
+                                    <div class="thumbnail">
+                                        <img src="thumb1.jpg" alt="" />
+                                    </div>
+                
+                                    <div class="details">
+                                        <div class="author">
+                                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                                        </div>
+                                    </div>
+                
+                                    <div class="title">
+                                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                                        <span>1B Views • 1 Years Ago</span>
+                                    </div>
+                
+                                </div>
+                                <!-- a video ends -->
+                                                <!-- a video starts -->
+                <div class="video">
+
+                    <div class="thumbnail">
+                        <img src="thumb1.jpg" alt="" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                        <span>1B Views • 1 Years Ago</span>
+                    </div>
+
+                </div>
+                <!-- a video ends -->
+                                <!-- a video starts -->
+                                <div class="video">
+
+                                    <div class="thumbnail">
+                                        <img src="thumb1.jpg" alt="" />
+                                    </div>
+                
+                                    <div class="details">
+                                        <div class="author">
+                                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                                        </div>
+                                    </div>
+                
+                                    <div class="title">
+                                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                                        <span>1B Views • 1 Years Ago</span>
+                                    </div>
+                
+                                </div>
+                                <!-- a video ends -->
+                                                <!-- a video starts -->
+                <div class="video">
+
+                    <div class="thumbnail">
+                        <img src="thumb1.jpg" alt="" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                        <span>1B Views • 1 Years Ago</span>
+                    </div>
+
+                </div>
+                <!-- a video ends -->
+                                <!-- a video starts -->
+                                <div class="video">
+
+                                    <div class="thumbnail">
+                                        <img src="thumb1.jpg" alt="" />
+                                    </div>
+                
+                                    <div class="details">
+                                        <div class="author">
+                                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                                        </div>
+                                    </div>
+                
+                                    <div class="title">
+                                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                                        <span>1B Views • 1 Years Ago</span>
+                                    </div>
+                
+                                </div>
+                                <!-- a video ends -->
+                                                <!-- a video starts -->
+                <div class="video">
+
+                    <div class="thumbnail">
+                        <img src="thumb1.jpg" alt="" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                        <span>1B Views • 1 Years Ago</span>
+                    </div>
+
+                </div>
+                <!-- a video ends -->
+                                <!-- a video starts -->
+                                <div class="video">
+
+                                    <div class="thumbnail">
+                                        <img src="thumb1.jpg" alt="" />
+                                    </div>
+                
+                                    <div class="details">
+                                        <div class="author">
+                                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                                        </div>
+                                    </div>
+                
+                                    <div class="title">
+                                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                                        <span>1B Views • 1 Years Ago</span>
+                                    </div>
+                
+                                </div>
+                                <!-- a video ends -->
+                                                <!-- a video starts -->
+                <div class="video">
+
+                    <div class="thumbnail">
+                        <img src="thumb1.jpg" alt="" />
+                    </div>
+
+                    <div class="details">
+                        <div class="author">
+                            <img src="pro1.jpg" alt="Diljit Dosanjh">
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <h3>Born To Shine | Diljit Dosanjh</h3>
+                        <span>1B Views • 1 Years Ago</span>
+                    </div>
+
+                </div>
+                <!-- a video ends -->
+            </div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>

@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Josefin+Sans:wght@400;500;600;700&family=Mrs+Saint+Delafield&family=Poppins:wght@600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+font-family: 'Manrope', sans-serif;
+}
+
+li {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+main{
+    // border: 1px solid red;
+    background: linear-gradient(to right top, #323334, #606061, #929293, #c7c7c8, #ffffff);
+    background-image: url("../images/1.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+
+    
+}
+
+// NavBar
+
+nav{
+    // border: 1px solid red;
+    width: 100%;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    .nav-links{
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-around;
+        // padding: 2rem;
+        border-radius: 20px;
+        // background-color: #111;
+        color: #fff;
+        
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+
+        .nav-link{
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+
+    .nav-logo{
+        // border: 1px solid red;
+        font-size: 2.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+
+    }
+
+    .nav-menu{
+        // border: 1px solid red;
+        font-size: 2rem;
+    }
+}
+
+// landingPage
+
+.landing-page{
+    // border: 1px solid red;
+    width: 100%;
+    height: 85%;
+    // background-color:aqua;
+    
+    .landing-page-headings{
+        display: flex;
+ 
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 5rem;
+
+
+        h3{
+            font-size: 6rem;
+            font-family: 'Mrs Saint Delafield', cursive;
+            // font-family: 'Babylonica', cursive;
+        }
+        h1{
+            font-size: 6.5rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight:400;
+            text-transform: capitalize;
+        }
+        button{
+            border: none;
+            background-color: #fff;
+            color: #111;
+            padding: 1.5rem 2rem;
+            text-transform: uppercase;
+        }
+    }
+
+    .landing-page-navCircles{
+        // border: 1px solid blue;
+        display: flex;
+        height: auto;
+        gap: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 5rem;
+
+
+
+        .landing-page-navCircles__rightArrow, .landing-page-navCircles__leftArrow{
+            width:4rem;
+            height: 4rem;
+            // border: 2px solid #fff;
+            // border-radius: 50%;
+            // background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.6rem;
+            // color: #fff;
+
+            background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+            
+        }
+    }
+}
+
+// cards
+img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: .3s;
+}
+
+.container { 
+    // border: 1px solid red;
+    width: 100%;
+    height: auto;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    transition: .3s;
+    grid-gap: 2rem;
+    padding:5rem;
+    box-sizing: border-box;
+
+  }
+
+.newProduct{
+    // border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    text-transform: capitalize;
+    padding: 5rem;
+
+    .newProduct__heading{
+        text-align: center;
+        padding-bottom: 5rem;
+        h2{
+            font-size: 4.4rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
+
+    .newProduct__cards{
+        // border: 1px solid red;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        transition: .3s;
+        grid-gap: 2rem;
+        box-sizing: border-box;
+
+        .product-details{
+            text-align: center;
+            padding-top: 1rem;
+
+            
+            h3{
+                font-size: 1.3rem;
+                padding-bottom: .5rem;
+            }
+            p{
+                font-size: 1.3rem;
+                padding-bottom: .5rem;
+            }
+            
+            .stars{
+                color: rgb(255, 234, 0);
+                padding-bottom: 2rem;
+
+            }
+        }
+        
+    }
+}
+
+.offer{
+    // border: 1px solid red;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    transition: .3s;
+    grid-gap: 2rem;
+    box-sizing: border-box;
+    // height: 50vh;
+    padding: 5rem;
+   
+    .offer__1{
+        // background: url("../images/Offer/10.png");
+        // background-position: center;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+    }
+    .offer__2{
+        // background: url("../images/Offer/4.png");
+        // background-position: center;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+    }
+
+    h4{
+        text-transform: uppercase;
+        font-size: 3rem;
+    }
+}
+
+
+
+  
+  

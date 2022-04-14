@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Josefin+Sans:wght@400;500;600;700&family=Mrs+Saint+Delafield&family=Poppins:wght@600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Manrope', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: -webkit-gradient(linear, left bottom, right top, from(#323334), color-stop(#606061), color-stop(#929293), color-stop(#c7c7c8), to(#ffffff));
+  background: linear-gradient(to right top, #323334, #606061, #929293, #c7c7c8, #ffffff);
+  background-image: url("../images/1.png");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  padding: 2rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 20px;
+  color: #fff;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+nav .nav-links .nav-link {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+nav .nav-logo {
+  font-size: 2.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav .nav-menu {
+  font-size: 2rem;
+}
+
+.landing-page {
+  width: 100%;
+  height: 85%;
+}
+
+.landing-page .landing-page-headings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 5rem;
+}
+
+.landing-page .landing-page-headings h3 {
+  font-size: 6rem;
+  font-family: 'Mrs Saint Delafield', cursive;
+}
+
+.landing-page .landing-page-headings h1 {
+  font-size: 6.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.landing-page .landing-page-headings button {
+  border: none;
+  background-color: #fff;
+  color: #111;
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+}
+
+.landing-page .landing-page-navCircles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  gap: 1rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 5rem;
+}
+
+.landing-page .landing-page-navCircles .landing-page-navCircles__rightArrow, .landing-page .landing-page-navCircles .landing-page-navCircles__leftArrow {
+  width: 4rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-transition: .3s;
+  transition: .3s;
+  grid-gap: 2rem;
+  padding: 5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.newProduct {
+  width: 100%;
+  height: 100vh;
+  text-transform: capitalize;
+  padding: 5rem;
+}
+
+.newProduct .newProduct__heading {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.newProduct .newProduct__heading h2 {
+  font-size: 4.4rem;
+}
+
+.newProduct .newProduct__heading p {
+  font-size: 1.3rem;
+}
+
+.newProduct .newProduct__cards {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-transition: .3s;
+  transition: .3s;
+  grid-gap: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.newProduct .newProduct__cards .product-details {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.newProduct .newProduct__cards .product-details h3 {
+  font-size: 1.3rem;
+  padding-bottom: .5rem;
+}
+
+.newProduct .newProduct__cards .product-details p {
+  font-size: 1.3rem;
+  padding-bottom: .5rem;
+}
+
+.newProduct .newProduct__cards .product-details .stars {
+  color: #ffea00;
+  padding-bottom: 2rem;
+}
+
+.offer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-transition: .3s;
+  transition: .3s;
+  grid-gap: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5rem;
+}
+
+.offer h4 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=nav.css.map */
